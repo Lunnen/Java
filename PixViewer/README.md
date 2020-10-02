@@ -2,6 +2,6 @@
 An image viewer in Java.
 
 User manual (In Swedish):
-manual%20PixViewer.pdf
+https://github.com/Lunnen/1JavaGrunder/blob/master/PixViewer/manual%20PixViewer.pdf
 
 
