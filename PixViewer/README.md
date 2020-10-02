@@ -1,4 +1,6 @@
 # PixViewer
+
+Week 38-39.
 An image viewer in Java.
 
 User manual (In Swedish):
