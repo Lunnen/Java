@@ -4,10 +4,15 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Toolkit;
+
 import javax.swing.Box;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
 /*
@@ -27,24 +32,27 @@ public class GUI implements Runnable {
 	 */
 	@Override
 	public void run() {
+
 		frame = new JFrame("Pix Viewer 2020");
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.setPreferredSize(new Dimension(800, 600)); // Start resolution/size.
 		frame.setMinimumSize(new Dimension(600, 450)); // Minimum size allowed (for button visability).
 		createComponents(frame.getContentPane());
+		
+		frame.setIconImage(new ImageIcon("icon.png").getImage()); //Application icon
 		frame.pack();
 		frame.setVisible(true);
 	}
 
+	// ******************************************
+	// Defining and adding the buttons/panels:
+	// ******************************************
 	private void createComponents(Container container) {
 
 		imagePanel = new ImagePanel(); // The UI that shows the image, changes it etc.
 		JPanel buttonPanel = new JPanel();
 		buttonPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 
-		// ******************************************
-		// Defining and adding the buttons/panels:
-		// ******************************************
 		JButton openButton = new JButton("Öppna fil");
 		openButton.setActionCommand("openButton");
 		openButton.addActionListener(new ButtonListener(imagePanel));
@@ -68,6 +76,8 @@ public class GUI implements Runnable {
 		JButton mirrorButton = new JButton("Spegla bild");
 		mirrorButton.setActionCommand("mirrorButton");
 		mirrorButton.addActionListener(new ButtonListener(imagePanel));
+		
+		JTextArea version = new JTextArea("Ver. 1.11 @ 2020-10-05"); //Application version.
 
 		buttonPanel.add(openButton);
 		buttonPanel.add(saveButton);
@@ -77,6 +87,7 @@ public class GUI implements Runnable {
 		buttonPanel.add(rotateButton);
 		buttonPanel.add(negativeButton);
 		buttonPanel.add(mirrorButton);
+		buttonPanel.add(version);
 
 		frame.getContentPane().add(imagePanel, BorderLayout.CENTER);
 		frame.getContentPane().add(buttonPanel, BorderLayout.NORTH);
