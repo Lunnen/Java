@@ -6,7 +6,7 @@ Assignment 2 - gameRPS (Rock, Paper, Scissors)\
 Assignment 3 - gameHangman\
 Assignment 4 - InputCSV (Parsing)\
 Lab - JUnit\
-Assignment Final - PixViewer (Picture viewer).\
+Assignment Final - PixViewer (Picture viewer)\
 \
--------------------------------------------------
+-------------------------------------------------\
 
