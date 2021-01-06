@@ -3,7 +3,7 @@
 #JavaCode @ EC JavaDev 2020-22.\
 
 - Basics\
-  Test - countProg -Count numbers up and down\
+  Test - countProg - Count numbers upwards and downwards\
   Assignment 1 - AskPass - Password validation\
   Assignment 2 - gameRPS (Rock, Paper, Scissors)\
   Assignment 3 - gameHangman - my version of the game Hangman\
