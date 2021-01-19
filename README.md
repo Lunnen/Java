@@ -12,7 +12,7 @@
   Assignment Final - PixViewer (Picture viewer)
 
 - Advanced\
-  {Available soon}
+  JavaAdv Assignment 1 - Stream
 
 -------------------------------------------------
 
