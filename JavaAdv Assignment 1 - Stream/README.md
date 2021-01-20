@@ -1,6 +1,6 @@
 -------------------------------------------------
 
-Uppgift/Övning JavaStreams\
+# Uppgift/Övning JavaStreams\
 I gitrepot kommer ni hitta en java fil (Arrayer.txt) där det finns två ordentligt\
 stora arrayer. Det är dessa vi ska köra Stream på och ta reda på spännande\
 och intressanta (nåja) fakta om.
