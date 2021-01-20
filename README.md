@@ -9,7 +9,7 @@
   Assignment 3 - gameHangman - my version of the game Hangman\
   Assignment 4 - InputCSV (Parsing) - Parse a CSV file\
   Lab - JUnit 5\
-  Assignment Final - PixViewer (Picture viewer)
+  Assignment Final - PixViewer - An app to display & transform JPG/PNG images.
 
 - Advanced\
   JavaAdv Assignment 1 - Stream
