@@ -6,13 +6,13 @@ stora arrayer. Det är dessa vi ska köra Stream på och ta reda på spännande\
 och intressanta (nåja) fakta om.
 
 Övningar/ bra platser att läsa\
-https://stackify.com/streams-guide-java-8/\
-https://www.w3schools.com/java/java_lambda.asp\
-https://dzone.com/articles/become-a-master-of-java-streams-part-1-creating-st\
-https://dzone.com/articles/become-a-master-of-java-streams-part-2-intermediat\
-www.codingame.com/playgrounds/20782/java-guild-meeting-52018/streams---practice\
-https://www.youtube.com/watch?v=t1-YZ6bF-g0&t=389s\
-och en sågning av det hela:\
+https://stackify.com/streams-guide-java-8/ \
+https://www.w3schools.com/java/java_lambda.asp \
+https://dzone.com/articles/become-a-master-of-java-streams-part-1-creating-st \
+https://dzone.com/articles/become-a-master-of-java-streams-part-2-intermediat \
+www.codingame.com/playgrounds/20782/java-guild-meeting-52018/streams---practice \
+https://www.youtube.com/watch?v=t1-YZ6bF-g0&t=389s \
+och en sågning av det hela: \
 https://jaxenter.com/java-performance-tutorial-how-fast-are-the-java-8-streams-118830.
 html
 
