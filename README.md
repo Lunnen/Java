@@ -12,7 +12,8 @@
   Assignment Final - PixViewer - An app to display & transform JPG/PNG images.
 
 - Advanced\
-  JavaAdv Assignment 1 - Stream
+  JavaAdv Assignment 1 - Stream\
+  JavaAdv Assignment 2 - RegEx (Regular Expressions)
 
 -------------------------------------------------
 
