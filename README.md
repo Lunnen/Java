@@ -14,6 +14,7 @@
 - Advanced\
   JavaAdv Assignment 1 - Stream\
   JavaAdv Assignment 2 - RegEx (Regular Expressions)
+  JavaAdv Lab in RegEx
 
 -------------------------------------------------
 
